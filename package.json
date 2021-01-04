@@ -1,0 +1,24 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusrramos97/learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusrramos97/learn/issues"
+  },
+  "homepage": "https://github.com/matheusrramos97/learn#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

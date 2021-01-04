@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container{
+        position: fixed;
+    }
+</style>
+
+<body>
+    <canvas id="screen"></canvas>
+    <canvas id="screen-info"></canvas>
+
+    <script type="module">
+        import createGame from './game.js'
+
+        const game = createGame(document, requestAnimationFrame)
+
+        game.start()
+    
+    </script>
+    
+</body>
+</html>
